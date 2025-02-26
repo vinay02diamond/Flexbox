@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box {
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+    width: 1000px;
+    height: 1300px;
+
+}
+.parent {
+    background-color: royalblue;
+    display: flex;
+    /* flex-direction:column; */
+    /* flex-direction:row-reverse; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
